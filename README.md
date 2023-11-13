@@ -1,6 +1,6 @@
 # chat_gram
 
-A new Flutter project for messagging.
+A new Flutter project for messaging.
 
 ## Getting Started
 
