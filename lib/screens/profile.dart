@@ -47,8 +47,6 @@ class _Profile extends State<Profile> {
               child: CircularProgressIndicator(),
             )
           : ListView(
-              //if loading true circular loader
-              //else quello che c'era,
               physics: const BouncingScrollPhysics(),
 
               children: [
