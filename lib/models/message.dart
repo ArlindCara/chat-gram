@@ -28,35 +28,32 @@ class Message {
     try {
       chatroomId = doc.get('chatroomId');
     } catch (e) {
-      print('non trovato chatroomId');
-      throw Exception("non trovato chatroomId");
+      throw Exception("chatroomId not found");
     }
     try {
       createdAt = doc.get('createdAt');
     } catch (e) {
-      print('non trovato createdAt');
-      throw Exception("non trovato createdAt");
+      throw Exception("createdAt not found");
     }
     try {
       message = doc.get('message');
     } catch (e) {
-      print('non trovato message');
+      print('message not found');
     }
     try {
       senderId = doc.get('senderId');
     } catch (e) {
-      print('non trovato senderId');
-      throw Exception("non trovato senderId");
+      throw Exception("senderId not found");
     }
     try {
       imageUrl = doc.get('imageUrl');
     } catch (e) {
-      print('non trovato imageUrl');
+      print('imageUrl not found');
     }
     try {
       fileUrl = doc.get('fileUrl');
     } catch (e) {
-      print('non trovato imageUrl');
+      print('imageUrl not found');
     }
 
     return Message(
